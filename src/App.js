@@ -24,7 +24,7 @@ function App() {
 					<Suspense fallback={""}>
 						<Routes>
 							<Route path="/architsangal-portfolio/" element={<Home />} />
-							<Route path="/architsangal-portfolio/projects" element={<Projects />} />
+							<Route path="/architsangal-portfolio/projects/" element={<Projects />} />
 							<Route
 								path="projects/single-project"
 								element={<ProjectSingle />}
