@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/architsangal-portfolio/static/css/main.9bd10cdf.chunk.css",
-    "main.js": "/architsangal-portfolio/static/js/main.086b5b1e.chunk.js",
-    "main.js.map": "/architsangal-portfolio/static/js/main.086b5b1e.chunk.js.map",
-    "runtime-main.js": "/architsangal-portfolio/static/js/runtime-main.3a2b71cf.js",
-    "runtime-main.js.map": "/architsangal-portfolio/static/js/runtime-main.3a2b71cf.js.map",
-    "static/js/2.6f86f1d2.chunk.js": "/architsangal-portfolio/static/js/2.6f86f1d2.chunk.js",
-    "static/js/2.6f86f1d2.chunk.js.map": "/architsangal-portfolio/static/js/2.6f86f1d2.chunk.js.map",
-    "static/js/3.79845bb8.chunk.js": "/architsangal-portfolio/static/js/3.79845bb8.chunk.js",
-    "static/js/3.79845bb8.chunk.js.map": "/architsangal-portfolio/static/js/3.79845bb8.chunk.js.map",
-    "static/js/4.fad9c968.chunk.js": "/architsangal-portfolio/static/js/4.fad9c968.chunk.js",
-    "static/js/4.fad9c968.chunk.js.map": "/architsangal-portfolio/static/js/4.fad9c968.chunk.js.map",
+    "main.js": "/architsangal-portfolio/static/js/main.5b88f55f.chunk.js",
+    "main.js.map": "/architsangal-portfolio/static/js/main.5b88f55f.chunk.js.map",
+    "runtime-main.js": "/architsangal-portfolio/static/js/runtime-main.604432af.js",
+    "runtime-main.js.map": "/architsangal-portfolio/static/js/runtime-main.604432af.js.map",
+    "static/js/2.536bcc22.chunk.js": "/architsangal-portfolio/static/js/2.536bcc22.chunk.js",
+    "static/js/2.536bcc22.chunk.js.map": "/architsangal-portfolio/static/js/2.536bcc22.chunk.js.map",
+    "static/js/3.4bf9150a.chunk.js": "/architsangal-portfolio/static/js/3.4bf9150a.chunk.js",
+    "static/js/3.4bf9150a.chunk.js.map": "/architsangal-portfolio/static/js/3.4bf9150a.chunk.js.map",
+    "static/js/4.0103e947.chunk.js": "/architsangal-portfolio/static/js/4.0103e947.chunk.js",
+    "static/js/4.0103e947.chunk.js.map": "/architsangal-portfolio/static/js/4.0103e947.chunk.js.map",
     "static/js/5.1a6d1d60.chunk.js": "/architsangal-portfolio/static/js/5.1a6d1d60.chunk.js",
     "static/js/5.1a6d1d60.chunk.js.map": "/architsangal-portfolio/static/js/5.1a6d1d60.chunk.js.map",
     "static/js/6.dd0607e8.chunk.js": "/architsangal-portfolio/static/js/6.dd0607e8.chunk.js",
@@ -21,7 +21,7 @@
     "static/js/8.72c061b6.chunk.js.map": "/architsangal-portfolio/static/js/8.72c061b6.chunk.js.map",
     "index.html": "/architsangal-portfolio/index.html",
     "static/css/main.9bd10cdf.chunk.css.map": "/architsangal-portfolio/static/css/main.9bd10cdf.chunk.css.map",
-    "static/js/2.6f86f1d2.chunk.js.LICENSE.txt": "/architsangal-portfolio/static/js/2.6f86f1d2.chunk.js.LICENSE.txt",
+    "static/js/2.536bcc22.chunk.js.LICENSE.txt": "/architsangal-portfolio/static/js/2.536bcc22.chunk.js.LICENSE.txt",
     "static/media/App.css": "/architsangal-portfolio/static/media/GeneralSans-VariableItalic.e4ae865b.woff",
     "static/media/developer-dark.3f07bd13.svg": "/architsangal-portfolio/static/media/developer-dark.3f07bd13.svg",
     "static/media/developer.ef097afb.svg": "/architsangal-portfolio/static/media/developer.ef097afb.svg",
@@ -36,9 +36,9 @@
     "static/media/web-project-2.jpg": "/architsangal-portfolio/static/media/web-project-2.f0108702.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a2b71cf.js",
-    "static/js/2.6f86f1d2.chunk.js",
+    "static/js/runtime-main.604432af.js",
+    "static/js/2.536bcc22.chunk.js",
     "static/css/main.9bd10cdf.chunk.css",
-    "static/js/main.086b5b1e.chunk.js"
+    "static/js/main.5b88f55f.chunk.js"
   ]
 }
