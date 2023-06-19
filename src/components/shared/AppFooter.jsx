@@ -1,5 +1,6 @@
 import {
 	FiGithub,
+	FiInstagram,
 	FiTwitter,
 	FiLinkedin,
 	FiGlobe,
@@ -11,28 +12,28 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: 'https://architsangal.github.io/architsangal-portfolio/',
 	},
 	{
 		id: 2,
 		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/architsangal',
 	},
 	{
 		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		icon: <FiLinkedin />,
+		url: 'https://www.linkedin.com/in/architsangal/',
 	},
 	{
 		id: 4,
-		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		icon: <FiInstagram />,
+		url: 'https://www.instagram.com/architsangal2000/',
 	},
-	{
-		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
-	},
+	// {
+	// 	id: 5,
+	// 	icon: <FiTwitter />,
+	// 	url: 'https://twitter.com/realstoman',
+	// },
 ];
 
 const AppFooter = () => {

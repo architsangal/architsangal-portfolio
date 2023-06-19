@@ -1,10 +1,18 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'Hello, I am an undergraduate student at IIIT Bangalore pursuing an Integrated M.Tech (B.Tech + M.Tech) in Computer Science. I made it to the Dean\'s merit list for academic excellence, which has inspired me to strive for excellence in all aspects of my life. ',
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: 'As a DevOps enthusiast and full-stack developer, I am enthusiastic about using technology to create innovative solutions to real-world problems. I enjoy learning new technologies and frameworks and putting them to use in order to create efficient and effective solutions. I believe that technology has the potential to transform and improve our lives, and I am thrilled to be a part of such a dynamic and ever-changing field.',
+	},
+	{
+		id: 3,
+		bio: 'I am proud to be a part of a vibrant and diverse community of developers and technologists. I am constantly inspired by my peers\' creativity and ingenuity, and I am motivated to work with like-minded individuals to create impactful and meaningful solutions. I believe that technology has the potential to be a powerful tool for social good, and I am committed to utilising my skills to make a positive difference in the world.',
+	},
+	{
+		id: 4,
+		bio: 'In my spare time, I enjoy experimenting with new software and technologies, participating in hackathons, and working on open-source projects with like-minded individuals. I\'m always looking for opportunities to grow and develop as a technologist, whether I\'m coding, experimenting with new tools, or brainstorming new ideas.',
 	},
 ];

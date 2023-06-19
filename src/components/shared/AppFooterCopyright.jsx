@@ -18,6 +18,14 @@ function AppFooterCopyright() {
 				>
 					Stoman
 				</a>
+				.
+				<a
+					href="https://github.com/architsangal"
+					target="__blank"
+					className="text-secondary-dark dark:text-secondary-light font-medium hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
+				>
+					Modified by: Archit Sangal
+				</a>
 			</div>
 		</div>
 	);
