@@ -31,6 +31,11 @@ const AboutClients = () => {
             element.buttonText !== undefined &&
             element.buttonText !== null &&
             element.buttonText !== "";
+          let skills =
+            element.skill !== undefined &&
+            element.skill !== null &&
+            element.skill !== "";
+
 
           return (
             <VerticalTimelineElement
@@ -47,16 +52,26 @@ const AboutClients = () => {
               <h5 className="vertical-timeline-element-subtitle ">
                 {element.location}
               </h5>
+
               <p id="description">{element.description}</p>
+
+              {skills && (
+                <p className= "workPercentage" id="skill">{element.skill}</p>
+              )}
+
               {showButton && (
+                <div>
+                <br></br>
                 <a
                   className={`button ${
                     isWorkIcon ? "workButton" : "schoolButton"
                   }`}
-                  href="/"
+                  href={element.link}
                 >
                   {element.buttonText}
                 </a>
+                <br></br>
+                </div>
               )}
             </VerticalTimelineElement>
           );
@@ -80,6 +95,10 @@ const AboutClients = () => {
             element.buttonText !== undefined &&
             element.buttonText !== null &&
             element.buttonText !== "";
+          let percentage =
+            element.percentage !== undefined &&
+            element.percentage !== null &&
+            element.percentage !== "";
 
           return (
             <VerticalTimelineElement
@@ -97,16 +116,26 @@ const AboutClients = () => {
                 {element.location}
               </h5>
               <p id="description">{element.description}</p>
+              
+              {percentage && (
+                <p className= "schoolPercentage" id="percentage">{element.percentage}</p>
+              )}
+
               {showButton && (
+                <div>
+                <br></br>
                 <a
                   className={`button ${
                     isWorkIcon ? "workButton" : "schoolButton"
                   }`}
-                  href="/"
+                  href={element.link}
                 >
                   {element.buttonText}
                 </a>
+                <br></br>
+                </div>
               )}
+
             </VerticalTimelineElement>
             
           );

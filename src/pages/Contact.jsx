@@ -9,7 +9,7 @@ const Contact = () => {
 			animate={{ opacity: 1 }}
 			transition={{
 				ease: 'easeInOut',
-				duration: 0.5,
+				duration: 1,
 				delay: 0.1,
 			}}
 			className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10"

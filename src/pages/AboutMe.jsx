@@ -10,6 +10,11 @@ const About = () => {
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
+				transition={{
+					ease: 'easeInOut',
+					duration: 1,
+					delay: 0.1,
+				}}	
 				exit={{ opacity: 0 }}
 				className="container mx-auto"
 			>
@@ -20,6 +25,12 @@ const About = () => {
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
+				transition={{
+					ease: 'easeInOut',
+					duration: 1,
+					delay: 0.1,
+				}}
+				
 				exit={{ opacity: 0 }}
 			>
 				{/* <AboutCounter /> */}
@@ -28,6 +39,12 @@ const About = () => {
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}
+				transition={{
+					ease: 'easeInOut',
+					duration: 1,
+					delay: 0.1,
+				}}
+				
 				exit={{ opacity: 0 }}
 				className="container mx-auto"
 			>

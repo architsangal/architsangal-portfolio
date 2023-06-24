@@ -3,17 +3,22 @@ import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 const contacts = [
 	{
 		id: 1,
-		name: 'Your Address, Your City, Your Country',
+		name: '26/C, International Institute of Information Technology Bangalore, Hosur Rd, Electronics City Phase 1, Bengaluru, Karnataka 560100',
 		icon: <FiMapPin />,
 	},
 	{
 		id: 2,
-		name: 'email@domain.com',
+		name: '77, Vijay Park Extension, Lane Number 4, Dehradun, Uttarakhand, 248001',
+		icon: <FiMapPin />,
+	},
+	{
+		id: 3,
+		name: 'architsangal2000@gmail.com',
 		icon: <FiMail />,
 	},
 	{
 		id: 3,
-		name: '555 8888 888',
+		name: '+91 9548697992',
 		icon: <FiPhone />,
 	},
 ];

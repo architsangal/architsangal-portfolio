@@ -277,4 +277,10 @@ body {
   .schoolButton:hover {
 	background-color: #f3bc3c;
   }
-  
+
+  .schoolPercentage {
+	color: #f3bc3c;
+  }
+  .workPercentage {
+	color: #0ac593;
+  }

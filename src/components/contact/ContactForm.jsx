@@ -1,10 +1,16 @@
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
+import profileImage from '../../images/contactMe.png';
+
 
 const ContactForm = () => {
 	return (
 		<div className="w-full lg:w-1/2">
 			<div className="leading-loose">
+			<div className="flex flex-col justify-center items-center w-full ">
+				<img src={profileImage} className="rounded-lg w-96" alt="" />
+			</div>
+{/* 
 				<form
 					onSubmit={(e) => {
 						e.preventDefault();
@@ -65,8 +71,8 @@ const ContactForm = () => {
 							type="submit"
 							aria-label="Send Message"
 						/>
-					</div>
-				</form>
+					</div> 
+				</form>*/}
 			</div>
 		</div>
 	);
