@@ -19,10 +19,10 @@ const ProjectsGrid = () => {
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
+					Projects Gallery
 				</p>
 			</div>
-
+			{/* Search Functionality Starts */}
 			<div className="mt-10 sm:mt-16">
 				<h3
 					className="font-general-regular 
@@ -92,12 +92,15 @@ const ProjectsGrid = () => {
 					<ProjectsFilter setSelectProject={setSelectProject} />
 				</div>
 			</div>
+			{/* Search Functionality Ends */}
 
+			{/* The resultant projects after search are displayed using ProjectSingle component */}
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
 				{selectProject
 					? selectProjectsByCategory.map((project) => (
 							<ProjectSingle
 								title={project.title}
+								link={project.link}
 								category={project.category}
 								image={project.img}
 								key={project.id}
@@ -107,6 +110,7 @@ const ProjectsGrid = () => {
 					? searchProjectsByTitle.map((project) => (
 							<ProjectSingle
 								title={project.title}
+								link={project.link}
 								category={project.category}
 								image={project.img}
 								key={project.id}
@@ -115,6 +119,7 @@ const ProjectsGrid = () => {
 					: projects.map((project) => (
 							<ProjectSingle
 								title={project.title}
+								link={project.link}
 								category={project.category}
 								image={project.img}
 								key={project.id}
