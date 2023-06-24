@@ -7,7 +7,7 @@ const AboutMeBio = () => {
 
 	return (
 		<div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-			<div className="w-full sm:w-1/4 mb-7 sm:mb-0">
+			<div className="flex flex-col justify-center items-center w-full sm:w-1/4 mb-7 sm:mb-0">
 				<img src={profileImage} className="rounded-lg w-96" alt="" />
 			</div>
 
