@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import SingleProjectContext from '../../context/SingleProjectContext';
+import SingleProjectContext from '../../../context/SingleProjectContext1';
 
 const ProjectRelatedProjects = () => {
 	const { singleProjectData } = useContext(SingleProjectContext);
