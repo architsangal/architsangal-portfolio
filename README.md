@@ -7,6 +7,11 @@ https://www.youtube.com/watch?v=Q9n2mLqXFpU
 
 https://www.youtube.com/watch?v=336gNj9V8qE
 
+installing : 
+```
+npm i react-vertical-timeline-component --legacy-peer-deps
+```
+
 ## To add a new project
 
 - Add a route path in `src/App.js`
