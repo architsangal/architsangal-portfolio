@@ -9,7 +9,8 @@ const useThemeSwitcher = () => {
 
 		root.classList.remove(activeTheme);
 		root.classList.add(theme);
-		localStorage.setItem('theme', theme);
+		// localStorage.setItem('theme', theme);
+		localStorage.setItem('theme', "dark");
 	}, [theme, activeTheme]);
 
 	return [activeTheme, setTheme];
