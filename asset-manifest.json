@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/architsangal-portfolio/static/css/main.a66eb12a.chunk.css",
-    "main.js": "/architsangal-portfolio/static/js/main.312eb432.chunk.js",
-    "main.js.map": "/architsangal-portfolio/static/js/main.312eb432.chunk.js.map",
-    "runtime-main.js": "/architsangal-portfolio/static/js/runtime-main.9def3060.js",
-    "runtime-main.js.map": "/architsangal-portfolio/static/js/runtime-main.9def3060.js.map",
+    "main.css": "/architsangal-portfolio/static/css/main.6425810c.chunk.css",
+    "main.js": "/architsangal-portfolio/static/js/main.0bc1a0b1.chunk.js",
+    "main.js.map": "/architsangal-portfolio/static/js/main.0bc1a0b1.chunk.js.map",
+    "runtime-main.js": "/architsangal-portfolio/static/js/runtime-main.f6e0224f.js",
+    "runtime-main.js.map": "/architsangal-portfolio/static/js/runtime-main.f6e0224f.js.map",
     "static/js/2.de1f77b5.chunk.js": "/architsangal-portfolio/static/js/2.de1f77b5.chunk.js",
     "static/js/2.de1f77b5.chunk.js.map": "/architsangal-portfolio/static/js/2.de1f77b5.chunk.js.map",
     "static/css/3.2e99a83d.chunk.css": "/architsangal-portfolio/static/css/3.2e99a83d.chunk.css",
@@ -16,15 +16,15 @@
     "static/js/5.d38516d6.chunk.js.map": "/architsangal-portfolio/static/js/5.d38516d6.chunk.js.map",
     "static/js/6.c0b2a6bf.chunk.js": "/architsangal-portfolio/static/js/6.c0b2a6bf.chunk.js",
     "static/js/6.c0b2a6bf.chunk.js.map": "/architsangal-portfolio/static/js/6.c0b2a6bf.chunk.js.map",
-    "static/js/7.01b9a678.chunk.js": "/architsangal-portfolio/static/js/7.01b9a678.chunk.js",
-    "static/js/7.01b9a678.chunk.js.map": "/architsangal-portfolio/static/js/7.01b9a678.chunk.js.map",
+    "static/js/7.3f226343.chunk.js": "/architsangal-portfolio/static/js/7.3f226343.chunk.js",
+    "static/js/7.3f226343.chunk.js.map": "/architsangal-portfolio/static/js/7.3f226343.chunk.js.map",
     "static/js/8.2393ae6b.chunk.js": "/architsangal-portfolio/static/js/8.2393ae6b.chunk.js",
     "static/js/8.2393ae6b.chunk.js.map": "/architsangal-portfolio/static/js/8.2393ae6b.chunk.js.map",
     "static/js/9.df4b9deb.chunk.js": "/architsangal-portfolio/static/js/9.df4b9deb.chunk.js",
     "static/js/9.df4b9deb.chunk.js.map": "/architsangal-portfolio/static/js/9.df4b9deb.chunk.js.map",
     "index.html": "/architsangal-portfolio/index.html",
     "static/css/3.2e99a83d.chunk.css.map": "/architsangal-portfolio/static/css/3.2e99a83d.chunk.css.map",
-    "static/css/main.a66eb12a.chunk.css.map": "/architsangal-portfolio/static/css/main.a66eb12a.chunk.css.map",
+    "static/css/main.6425810c.chunk.css.map": "/architsangal-portfolio/static/css/main.6425810c.chunk.css.map",
     "static/js/2.de1f77b5.chunk.js.LICENSE.txt": "/architsangal-portfolio/static/js/2.de1f77b5.chunk.js.LICENSE.txt",
     "static/js/3.07e3a2bf.chunk.js.LICENSE.txt": "/architsangal-portfolio/static/js/3.07e3a2bf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/architsangal-portfolio/static/media/GeneralSans-VariableItalic.e4ae865b.woff",
@@ -41,9 +41,9 @@
     "static/media/work.3710b624.svg": "/architsangal-portfolio/static/media/work.3710b624.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9def3060.js",
+    "static/js/runtime-main.f6e0224f.js",
     "static/js/2.de1f77b5.chunk.js",
-    "static/css/main.a66eb12a.chunk.css",
-    "static/js/main.312eb432.chunk.js"
+    "static/css/main.6425810c.chunk.css",
+    "static/js/main.0bc1a0b1.chunk.js"
   ]
 }
