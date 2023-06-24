@@ -21,10 +21,15 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		link:"/projects/single-project",
+		link:"/projects/project2",
 		title: 'Phoenix Digital Agency',
 		category: 'Mobile Application',
 		img: MobileImage2,
+		ProjectHeader: {
+			title: 'Project Management UI - From Context',
+			publishDate: 'Jul 26, 2021',
+			tags: 'UI / Frontend',
+		},
 	},
 	{
 		id: 3,
