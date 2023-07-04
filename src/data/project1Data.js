@@ -1,161 +1,111 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
-// Import icons
-import {
-	FiFacebook,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
-} from 'react-icons/fi';
+import mainImage from '../images/project1/image1.png';
+import image2 from '../images/project1/image2.png';
+import image3 from '../images/project1/image3.png';
+import image4 from '../images/project1/image4.png';
+import image5 from '../images/project1/image5.png';
+import image6 from '../images/project1/image6.png';
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
+		title: 'Courier Management System',
+		publishDate: 'May, 2023',
+		tags: 'DevOps',
 	},
 	ProjectImages: [
 		{
-			id: 1,
-			title: 'Kabul Project Management UI',
-			img: Image1,
+			id: 5,
+			title: 'ELK',
+			img: image5,
 		},
 		{
 			id: 2,
-			title: 'Kabul Project Management UI',
-			img: Image2,
+			title: 'mobile image',
+			img: image2,
+		},
+		{
+			id: 4,
+			title: 'grafana image',
+			img: image4,
+		},
+		{
+			id: 1,
+			title: 'cover image',
+			img: mainImage,
 		},
 		{
 			id: 3,
-			title: 'Kabul Project Management UI',
-			img: Image3,
+			title: 'tablet image',
+			img: image3,
+		},
+		{
+			id: 6,
+			title: 'mobile again',
+			img: image6,
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'About Client',
-		CompanyInfo: [
-			{
-				id: 1,
-				title: 'Name',
-				details: 'Company Ltd',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
-			},
-		],
-		ObjectivesHeading: 'Objective',
-		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
+					'Git',
+					'GitHub',
+					'JUnit',
+					'Mockito Core',
+					'Jenkins', 
+					'Docker',
+					'Ansible',
+					'ELK', 'Prometheus',
+					'Grafana',
+					'React', 
+					'SpringBoot',
+					'NoSQL',
 					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
 				],
 			},
 		],
-		ProjectDetailsHeading: 'Challenge',
+		ProjectDetailsHeading: 'About Project',
 		ProjectDetails: [
 			{
-				id: 1,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-			{
-				id: 2,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 3,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
 				id: 4,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-		],
-		SocialSharingHeading: 'Share This',
-		SocialSharing: [
-			{
-				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
+					'A comprehensive solution that makes it easier to receive and pick up packages on campus is the courier management application that our team created for our college, IIIT Bangalore. The application is made to meet the needs of students, faculty, staff members, and administrators who need to manage packages that need to be picked up on college property.'
 			},
 			{
 				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
+				details:
+					'Users of the application can easily track packages thanks to its responsive and user-friendly interface.'
 			},
-		],
-	},
-	RelatedProject: {
-		title: 'Related Projects',
-		Projects: [
+			{
+				id: 6,
+				details:
+					'Numerous features offered by the courier management application guarantee effective management of package delivery. The user\'s ability to track packages is one of the application\'s most crucial features. Users can receive notifications about the status of their packages, including when the owner or someone acting on their behalf received them as well as when the admin received them from the delivering company. The application includes automatic notifications that keep users updated on the status of their package, ensuring that users are always aware of the status of their package. Email notifications enable users to stay informed about the status of their packages at all times. Additionally, this feature reduces the possibility of packages getting misplaced or lost.'
+			},
+			{
+				id: 7,
+				details:
+					'Admin has more functionality and has more control over the package information. Consequently, a feature for tracking package history is also included in the admin\'s side courier management application. With the help of this feature, administrators can view the history of their packages, including the times that they were picked up and delivered. Only the administrator has the ability to add packages and mark them as received. There are also numerous additional features. Scroll to features section 2.2 for more information.'
+			},
+			{
+				id: 8,
+				details:
+					'Overall, the courier management software created for our college is a useful and easy-to-use application that streamlines the process of adding and receiving packages on campus. The college community can reduce errors and save time by using this application to track and deliver packages manually.'
+			},
 			{
 				id: 1,
-				title: 'Mobile UI',
-				img: Image4,
+				details:
+					'A full stack project, which included, frontend, backend, databases,testing, containerization and deployment, logging. All these tasks were automated. The frontend was completely responsive.'
 			},
 			{
 				id: 2,
-				title: 'Web Application',
-				img: Image5,
+				details:
+					'Implemented all the CRUD functionalities, security features like JWT authentication (authorization and authentication i.e. role-based access), OTP verification for new users, notification system via mail, search functionality, continuous monitoring.'
 			},
 			{
 				id: 3,
-				title: 'UI Design',
-				img: Image6,
-			},
-			{
-				id: 4,
-				title: 'Kabul Mobile App UI',
-				img: Image3,
+				details:
+					'Ingress has been implemented to make frontend and backend deploy ready.',
 			},
 		],
 	},

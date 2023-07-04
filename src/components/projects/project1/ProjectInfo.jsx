@@ -8,7 +8,7 @@ const ProjectInfo = () => {
 		<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 			<div className="w-full sm:w-1/3 text-left">
 				{/* Single project client details */}
-				<div className="mb-7">
+				{/* <div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-secondary-dark dark:text-secondary-light mb-2">
 						{singleProjectData.ProjectInfo.ClientHeading}
 					</p>
@@ -38,17 +38,17 @@ const ProjectInfo = () => {
 							}
 						)}
 					</ul>
-				</div>
+				</div> */}
 
 				{/* Single project objectives */}
-				<div className="mb-7">
+				{/* <div className="mb-7">
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
 						{singleProjectData.ProjectInfo.ObjectivesHeading}
 					</p>
 					<p className="font-general-regular text-primary-dark dark:text-ternary-light">
 						{singleProjectData.ProjectInfo.ObjectivesDetails}
 					</p>
-				</div>
+				</div> */}
 
 				{/* Single project technologies */}
 				<div className="mb-7">
@@ -65,26 +65,21 @@ const ProjectInfo = () => {
 				{/* Single project social sharing */}
 				<div>
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-						{singleProjectData.ProjectInfo.SocialSharingHeading}
+						{"Links"}
 					</p>
 					<div className="flex items-center gap-3 mt-5">
-						{singleProjectData.ProjectInfo.SocialSharing.map(
-							(social) => {
-								return (
+						
 									<a
-										key={social.id}
-										href={social.url}
+										href={"https://github.com/architsangal/Courier-Management-Application"}
 										target="__blank"
 										aria-label="Share Project"
 										className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
 									>
-										<span className="text-lg lg:text-2xl">
-											{social.icon}
+										<span className="font-general-regular text-primary-dark dark:text-ternary-light">
+											{"GitHub Link"}
 										</span>
 									</a>
-								);
-							}
-						)}
+						
 					</div>
 				</div>
 			</div>
