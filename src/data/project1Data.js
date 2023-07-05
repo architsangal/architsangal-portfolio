@@ -65,7 +65,7 @@ export const singleProjectData = {
 				],
 			},
 		],
-		ProjectDetailsHeading: 'About Project',
+		ProjectDetailsHeading: 'About The Project',
 		ProjectDetails: [
 			{
 				id: 4,

@@ -1,6 +1,8 @@
 // Import images
 import WebImage1 from '../images/web-project-1.jpg';
 import project1Main from '../images/project1/image1.png';
+import project2Main from '../images/project2/logocolor.png';
+
 import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
@@ -19,18 +21,18 @@ export const projectsData = [
 			tags: 'DevOps Project',
 		},
 	},
-	// {
-	// 	id: 2,
-	// 	link:"/projects/project2",
-	// 	title: 'Phoenix Digital Agency',
-	// 	category: 'Mobile Application',
-	// 	img: MobileImage2,
-	// 	ProjectHeader: {
-	// 		title: 'Project Management UI - From Context',
-	// 		publishDate: 'Jul 26, 2021',
-	// 		tags: 'UI / Frontend',
-	// 	},
-	// },
+	{
+		id: 2,
+		link:"/projects/project2",
+		title: 'FoodFast',
+		category: 'Mobile Application',
+		img: project2Main,
+		ProjectHeader: {
+			title: 'IIITB Canteen App',
+			publishDate: 'March, 2021',
+			tags: 'Mobile Application',
+		},
+	},
 	// {
 	// 	id: 3,
 	// 	link:"/projects/single-project",

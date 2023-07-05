@@ -17,7 +17,7 @@ const ProjectSingle = ({ title, category, image,link }) => {
 					<div>
 						<img
 							src={image}
-							className="rounded-t-xl border-none"
+							className="rounded-t-xl border-none projectPhoto"
 							alt="Single Project"
 						/>
 					</div>

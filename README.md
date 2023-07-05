@@ -2,12 +2,71 @@
 
 This is my portfolio website. It is built with React and hosted on GitHub Pages.
 
-		// "start": "react-scripts --openssl-legacy-provider start",
-https://www.youtube.com/watch?v=Q9n2mLqXFpU
+## Changing Gdrive links
 
-https://www.youtube.com/watch?v=336gNj9V8qE
+- https://youtu.be/PIm7o2DQ0jE
 
-installing : 
+Drive link to the folder:
+
+- https://drive.google.com/drive/folders/1i9vwe-jALX3st1gkQAYLfBSp_conbHEB?usp=sharing
+
+## To run the project locally
+
+```
+npm start
+```
+
+## To deploy the project
+```
+npm run deploy
+```
+Videos that I used to take care of deployment:
+- https://www.youtube.com/watch?v=Q9n2mLqXFpU
+- https://www.youtube.com/watch?v=336gNj9V8qE
+
+## Dependencies and versions
+
+```
+$ npm version
+{
+  'react-tailwindcss-portfolio': '0.1.0',
+  npm: '8.19.4',
+  node: '16.20.0',
+  v8: '9.4.146.26-node.26',
+  uv: '1.43.0',
+  zlib: '1.2.11',
+  brotli: '1.0.9',
+  ares: '1.19.0',
+  modules: '93',
+  nghttp2: '1.47.0',
+  napi: '8',
+  llhttp: '6.0.10',
+  openssl: '1.1.1t+quic',
+  cldr: '41.0',
+  icu: '71.1',
+  tz: '2022f',
+  unicode: '14.0',
+  ngtcp2: '0.8.1',
+  nghttp3: '0.7.0'
+}
+
+$ npm view react version
+18.2.0
+$ npm view react-native version
+0.72.1
+$ npm view react-scripts version
+5.0.1
+$ npm view tailwindcss version
+3.3.2
+```
+
+## Setting Up Modification Done to use npm start
+These should not be done, if every thing is working fine. These are just for reference.
+```
+"start": "react-scripts --openssl-legacy-provider start",
+```
+
+Installing TimeLine Component:
 ```
 npm i react-vertical-timeline-component --legacy-peer-deps
 ```

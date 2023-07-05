@@ -68,18 +68,27 @@ const ProjectInfo = () => {
 						{"Links"}
 					</p>
 					<div className="flex items-center gap-3 mt-5">
-						
-									<a
-										href={"https://github.com/architsangal/Courier-Management-Application"}
-										target="__blank"
-										aria-label="Share Project"
-										className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
-									>
-										<span className="font-general-regular text-primary-dark dark:text-ternary-light">
-											{"GitHub Link"}
-										</span>
-									</a>
-						
+			
+					<a
+							href={"https://github.com/architsangal/Courier-Management-Application"}
+							target="__blank"
+							aria-label="Share Project"
+							className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
+						>
+							<span className="font-general-regular text-primary-dark dark:text-ternary-light">
+								{"GitHub Link"}
+							</span>
+						</a>
+						<a
+							href={"https://drive.google.com/file/d/1f-FY1VcxjMObpIKkCoG_Zc2pkptnDdVm/view?usp=sharing"}
+							target="__blank"
+							aria-label="Share Project"
+							className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
+						>
+							<span className="font-general-regular text-primary-dark dark:text-ternary-light">
+								{"Detailed Report"}
+							</span>
+						</a>
 					</div>
 				</div>
 			</div>

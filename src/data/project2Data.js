@@ -1,10 +1,10 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
+import Image1 from '../images/project2/image1.png';
+import Image2 from '../images/project2/image2.png';
+import Image3 from '../images/project2/image3.png';
+import Image4 from '../images/project2/image4.png';
+import Image5 from '../images/project2/image5.png';
+import Image6 from '../images/project2/image6.png';
 // Import icons
 import {
 	FiFacebook,
@@ -16,93 +16,106 @@ import {
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
+		title: 'FoodFast: IIITB Canteen App',
+		publishDate: 'March, 2021',
+		tags: 'Mobile Application (Cross Platform)',
 	},
 	ProjectImages: [
 		{
 			id: 1,
-			title: 'Kabul Project Management UI',
+			title: 'Login Page',
 			img: Image1,
 		},
 		{
 			id: 4,
-			title: 'Kabul Project Management UI',
-			img: Image1,
-		},
-		{
-			id: 2,
-			title: 'Kabul Project Management UI',
+			title: 'Orders Page',
 			img: Image2,
 		},
 		{
-			id: 3,
-			title: 'Kabul Project Management UI',
+			id: 2,
+			title: 'Item Selection Page',
 			img: Image3,
+		},
+		{
+			id: 3,
+			title: 'User Info Page',
+			img: Image4,
+		},
+		{
+			id: 5,
+			title: 'User Info Page',
+			img: Image5,
+		},
+		{
+			id: 3,
+			title: 'User Info Page',
+			img: Image6,
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'About Client',
+		// ClientHeading: 'About Client',
 		CompanyInfo: [
-			{
-				id: 1,
-				title: 'Name',
-				details: 'Hello Ltd',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
-			},
+			// {
+			// 	id: 1,
+			// 	title: 'Name',
+			// 	details: 'Hello Ltd',
+			// },
+			// {
+			// 	id: 2,
+			// 	title: 'Services',
+			// 	details: 'UI Design & Frontend Development',
+			// },
+			// {
+			// 	id: 3,
+			// 	title: 'Website',
+			// 	details: 'https://company.com',
+			// },
+			// {
+			// 	id: 4,
+			// 	title: 'Phone',
+			// 	details: '555 8888 888',
+			// },
 		],
-		ObjectivesHeading: 'Objective',
-		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+		// ObjectivesHeading: 'Objective',
+		// ObjectivesDetails:
+			// 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
 				techs: [
-					'HTML',
-					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'Flutter',
+					'FireBase',
+					'Dart',
+					'Figma',
 				],
 			},
 		],
-		ProjectDetailsHeading: 'Challenge',
+		ProjectDetailsHeading: 'About The Project',
 		ProjectDetails: [
 			{
 				id: 1,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'I am the creator and the team leader of the open source application called FoodFast. It was started by me as a fun project, as it progressed, it got accepted in IIITB Summer Of Code in 2022. It aims to reduce the waiting time of the order. The application has both user side and manager side functionalities. We used a framework called flutter due to its cross platform support for Web, iOS and Android. During the IIITB Summer of code, I guided and mentored 2 students. This application is right now in testing phase more specifically stress testing to test that if it can handle the heavy user surge which might be due to ordering at peak hours, like 12 am common senior in college : )',
 			},
 			{
 				id: 2,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					'For the backend, we have used firebase. We also have used authentication and authorisation i.e. role-based access to the application.',
 			},
 			{
 				id: 3,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+					'Users can add the items into the cart, and can place an order. The store owner can accept or reject an order, open or close the store, manage the inventory of the items.',
 			},
 			{
 				id: 4,
 				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+					'Booking orders in advance will help manage crowding and reduce waiting time. You can track the status of your order through your token number due to a token based tracking system. Order status is updated in real-time by the manager.',
+			},
+			{
+				id: 5,
+				details:
+					'The minimal design facilitates easy navigation with simple UI.',
 			},
 		],
 		SocialSharingHeading: '',

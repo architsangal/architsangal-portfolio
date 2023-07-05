@@ -284,3 +284,15 @@ body {
   .workPercentage {
 	color: #0ac593;
   }
+
+  .projectPhoto {
+	height: 400px;
+	width: 400px;
+	object-fit: contain;
+  }
+
+  .projectPhotoMobile {
+	height: 800px;
+	width: 400px;
+	object-fit: contain;
+  }
