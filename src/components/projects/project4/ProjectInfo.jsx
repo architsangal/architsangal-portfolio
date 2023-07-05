@@ -79,9 +79,6 @@ const ProjectInfo = () => {
 								{"Demo Link"}
 							</span>
 						</a>
-					</div>
-
-					<div className="flex items-center gap-3 mt-5">
 						
 						<a
 							href={"https://github.com/architsangal/MongoDB-based-Graph-Algorithm-and-Analytics-Library"}
@@ -93,9 +90,6 @@ const ProjectInfo = () => {
 								{"GitHub Link"}
 							</span>
 						</a>
-					</div>
-
-					<div className="flex items-center gap-3 mt-5">
 						
 						<a
 							href={"https://drive.google.com/file/d/1B9ADj3FWfyj1c0CZgHwLsr_JwQSdY940/view"}

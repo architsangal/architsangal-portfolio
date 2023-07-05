@@ -42,6 +42,37 @@ const AppFooter = () => {
 			<div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
 				{/* Footer social links */}
 				<div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
+					<div className="flex items-center gap-3 mt-5">
+					<p className="text-xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5">
+						For an exhaustive list of projects, refer to my GitHub profile  
+							<a
+								href={"https://github.com/architsangal?tab=repositories"}
+								target="__blank"
+								aria-label="Share Project"
+								className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
+							>
+								<span className="font-general-regular text-primary-dark dark:text-ternary-light">
+									{"here"}
+								</span>
+							</a>
+						
+						or old projects list
+							<a
+								href={"https://architsangal.github.io/Portfolio/#/"}
+								target="__blank"
+								aria-label="Share Project"
+								className="bg-ternary-light dark:bg-ternary-dark text-gray-400 hover:text-primary-dark dark:hover:text-primary-light p-2 rounded-lg shadow-sm duration-500"
+							>
+								<span className="font-general-regular text-primary-dark dark:text-ternary-light">
+									{"here"}
+								</span>
+							</a>
+						.
+					</p>
+					</div>
+					<p className="text-2xl sm:text-3xl text-primary-dark dark:text-primary-light mb-5">
+						
+					</p>
 					<p className="text-2xl sm:text-3xl text-primary-dark dark:text-primary-light mb-5">
 						Follow me
 					</p>
