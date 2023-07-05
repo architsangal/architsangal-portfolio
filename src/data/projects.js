@@ -1,8 +1,9 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
 import project1Main from '../images/project1/image1.png';
 import project2Main from '../images/project2/logocolor.png';
+import project3Main from '../images/project3/QuestionAddSub.png';
 
+import WebImage1 from '../images/web-project-1.jpg';
 import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
@@ -33,13 +34,13 @@ export const projectsData = [
 			tags: 'Mobile Application',
 		},
 	},
-	// {
-	// 	id: 3,
-	// 	link:"/projects/single-project",
-	// 	title: 'Project Management UI',
-	// 	category: 'UI/UX Design',
-	// 	img: UIImage1,
-	// },
+	{
+		id: 3,
+		link:"/projects/project3",
+		title: 'Question Paper Management System',
+		category: 'Web Application',
+		img: project3Main,
+	},
 	// {
 	// 	id: 4,
 	// 	link:"/projects/single-project",

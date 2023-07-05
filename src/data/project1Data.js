@@ -85,7 +85,7 @@ export const singleProjectData = {
 			{
 				id: 7,
 				details:
-					'Admin has more functionality and has more control over the package information. Consequently, a feature for tracking package history is also included in the admin\'s side courier management application. With the help of this feature, administrators can view the history of their packages, including the times that they were picked up and delivered. Only the administrator has the ability to add packages and mark them as received. There are also numerous additional features. Scroll to features section 2.2 for more information.'
+					'Admin has more functionality and has more control over the package information. Consequently, a feature for tracking package history is also included in the admin\'s side courier management application. With the help of this feature, administrators can view the history of their packages, including the times that they were picked up and delivered. Only the administrator has the ability to add packages and mark them as received. There are also numerous additional features.'
 			},
 			{
 				id: 8,
