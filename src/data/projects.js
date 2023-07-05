@@ -2,6 +2,7 @@
 import project1Main from '../images/project1/image1.png';
 import project2Main from '../images/project2/logocolor.png';
 import project3Main from '../images/project3/QuestionAddSub.png';
+import project4Main from '../images/project4/image1.png';
 
 import WebImage1 from '../images/web-project-1.jpg';
 import MobileImage1 from '../images/mobile-project-1.jpg';
@@ -23,11 +24,11 @@ export const projectsData = [
 		},
 	},
 	{
-		id: 2,
-		link:"/projects/project2",
-		title: 'FoodFast',
-		category: 'Mobile Application',
-		img: project2Main,
+		id: 4,
+		link:"/projects/project4",
+		title: 'MongoDB based Graph Algorithm and Analytics Library',
+		category: '',
+		img: project4Main,
 		ProjectHeader: {
 			title: 'IIITB Canteen App',
 			publishDate: 'March, 2021',
@@ -41,32 +42,16 @@ export const projectsData = [
 		category: 'Web Application',
 		img: project3Main,
 	},
-	// {
-	// 	id: 4,
-	// 	link:"/projects/single-project",
-	// 	title: 'Cloud Storage Platform',
-	// 	category: 'UI/UX Design',
-	// 	img: UIImage2,
-	// },
-	// {
-	// 	id: 5,
-	// 	link:"/projects/single-project",
-	// 	title: 'React Social App',
-	// 	category: 'Mobile Application',
-	// 	img: MobileImage1,
-	// },
-	// {
-	// 	id: 6,
-	// 	link:"/projects/single-project",
-	// 	title: 'Apple Design System',
-	// 	category: 'Web Application',
-	// 	img: WebImage1,
-	// },
-	// {
-	// 	id: 7,
-	// 	link:"/projects/single-project2",
-	// 	title: 'Apple Design System',
-	// 	category: 'Web Application',
-	// 	img: WebImage1,
-	// },
+	{
+		id: 2,
+		link:"/projects/project2",
+		title: 'FoodFast',
+		category: 'Mobile Application',
+		img: project2Main,
+		ProjectHeader: {
+			title: 'IIITB Canteen App',
+			publishDate: 'March, 2021',
+			tags: 'Mobile Application',
+		},
+	},
 ];
